@@ -12,7 +12,9 @@
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.49",
     "@tailwindcss/vite": "^4.3.3",
+    "fullpage.js": "^4.0.41",
     "lucide-react": "^1.47.0",
+    "react": "^19.3.0",
     "react-router-dom": "^7.18.4",
     "tailwindcss": "^4.3.3"
   }
