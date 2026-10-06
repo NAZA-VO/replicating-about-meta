@@ -14,7 +14,7 @@ const glasses = [
 const AIglasses = () => {
   return (
     <main>
-    <div className="relative h-[100svh] min-h-[480px] w-full overflow-hidden">
+    <div className="relative h-svh min-h-120 w-full overflow-hidden">
       <video className="absolute inset-0 h-full w-full object-cover" src={meta}
       autoPlay
       loop 
@@ -25,7 +25,7 @@ const AIglasses = () => {
         AI glasses for effortless connection</h1>
       </div>
     </div>
-      <section className="mx-auto max-w-[1440px] px-5 py-10 sm:px-8 md:px-12">
+      <section className="mx-auto max-w-360 px-5 py-10 sm:px-8 md:px-12">
         <div className="mb-12 flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
           <h2 className="text-2xl font-medium text-gray-900 sm:text-3xl">
             AI glasses
