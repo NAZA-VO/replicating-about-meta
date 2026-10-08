@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Header from "./static/Header"
-import  Home  from "./pages/Home"
 import About from "./pages/About"
 import AIglasses from "./pages/AIglasses"
+import MetaQuest from "./pages/MetaQuest"
 
 
 const App = () => {
@@ -10,13 +10,11 @@ const App = () => {
     <div>
       <BrowserRouter>
       <Header/>
-      
       <Routes>
-       <Route path="/" element = {<Home/>}/>
-       <Route path="about" element = {<About/>}/>
+       <Route path="/" element = {<About/>}/>
        <Route path="ai-glasses" element = {<AIglasses/>}/>
+       <Route path="meta-quest" element = {<MetaQuest/>}/>
       </Routes>
-  
       </BrowserRouter>
     </div>
   )

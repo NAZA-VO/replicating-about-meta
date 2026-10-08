@@ -10,7 +10,7 @@ const Header = () => {
     setToggle(!toggle)
   }
   return (
-    <header className=" fixed top-0 w-full z-50 flex h-20 px-26 max-md:px-16 justify-between items-center font-medium">
+    <header className=" fixed top-0 w-full z-50 flex h-20 px-26 max-md:px-16 justify-between items-center font-medium bg-white">
      <section className="h-full flex w-full gap-12 items-center">
         <Link to="/">
         {""}
@@ -19,18 +19,16 @@ const Header = () => {
         </div>
         </Link>
         <section className=" flex gap-8 max-md:hidden">
-         <Link to = "/about">
+         <Link to = "/">
             <nav className="cursor-pointer">About</nav>
          </Link>
             <Link to = "/ai-glasses">
              <nav className="cursor-pointer"> AI glasses</nav>
             </Link>
-           <Link to="/meta quest">
+           <Link to="/meta-quest">
             <nav className="cursor-pointer">Meta Quest</nav>
            </Link>
-            <Link to="/apps and games">
-             <nav className="cursor-pointer">Apps and Games</nav>
-            </Link>
+            
         </section>
 
         <section className="flex gap-8 max-md:hidden">
@@ -49,15 +47,6 @@ const Header = () => {
            <section onClick={toggleSwitch} className="hidden max-md:block cursor-pointer">
             <Menu />
            </section>
-
-
-
-
-
-
-
-
-
 
 
      </section>
