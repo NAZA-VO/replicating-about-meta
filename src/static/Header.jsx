@@ -10,7 +10,7 @@ const Header = () => {
     setToggle(!toggle)
   }
   return (
-    <header className=" bg-amber-400 fixed top-0 w-full z-50 flex h-20 px-26 max-md:px-16 justify-between items-center font-medium">
+    <header className=" fixed top-0 w-full z-50 flex h-20 px-26 max-md:px-16 justify-between items-center font-medium">
      <section className="h-full flex w-full gap-12 items-center">
         <Link to="/">
         {""}
